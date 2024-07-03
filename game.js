@@ -6,6 +6,11 @@ function launch_app(){
     window.location.href = app_launch;
 }
 
+function launch_loop(){
+    window.location.href = app_launch;
+    setTimeout(launch_loop,1000);
+}
+
 function launch_from_website(){
     window.location.href = web_launch;
 }
