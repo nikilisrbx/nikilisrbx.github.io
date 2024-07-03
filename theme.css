@@ -11,6 +11,7 @@ body {
 
 .button1 {
     background-color: #02b757;
+    cursor: pointer;
     /*
     border-style: solid;
     border-color: darkgreen;
