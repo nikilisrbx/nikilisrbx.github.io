@@ -15,10 +15,10 @@ function go_home(){
 }
 function launch_from_pwa(){
     launch_app()
-    setTimeout( go_home, 1000 );
+    setTimeout( go_home, 50 );
 }
 
 function launch_game(){
     window.location.href = app_launch;
-    setTimeout(launch_from_website,1000);
+    setTimeout(launch_from_website,50);
 }
