@@ -15,7 +15,7 @@ function go_home(){
 }
 function launch_from_pwa(){
     launch_app()
-    setTimeout( go_home, 50 );
+    //setTimeout( go_home, 50 );
 }
 
 function launch_game(){
