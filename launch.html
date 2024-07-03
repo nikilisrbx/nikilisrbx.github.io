@@ -7,8 +7,9 @@
     <title>Launching...</title>
     <script src="game.js"></script>
     <script>
-        //document.addEventListener('visibilitychange', launch_app)
-        document.addEventListener('visibilitychange', window.close)
+        document.addEventListener('visibilitychange',function(){
+            setTimeout(launch_app,1000)
+        })
     </script>
 </head>
 <body>
