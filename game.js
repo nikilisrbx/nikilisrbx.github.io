@@ -6,22 +6,9 @@ function launch_app(){
     window.location.href = app_launch;
 }
 
-function launch_loop(){
-    window.location.href = app_launch;
-    setTimeout(launch_loop,1000);
-}
-
 function launch_from_website(){
     window.location.href = web_launch;
 }
-/*
-function go_home(){
-    window.location.href = home_page;
-}
-function launch_from_pwa(){
-    launch_app()
-    //setTimeout( go_home, 50 );
-}*/
 
 function launch_game(){
     window.location.href = app_launch;

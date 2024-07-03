@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Launching...</title>
+    <script src="game.js"></script>
+    <script>
+        document.addEventListener('visibilitychange', launch_app)
+    </script>
 </head>
 <body>
 
@@ -12,9 +16,8 @@
     <div class="loader"></div>
 </div>
 
-<script src="game.js"></script>
 <script>
-    launch_loop()
+    launch_app()
 </script>
 
 </body>
